@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NetSSR — Online Security, and Safety</title>
+<meta name="description" content="NetSSR is a French non-profit (association loi 1901) dedicated to Internet security, and openness through research, threat intelligence and open source tools.">
+<link rel="icon" href="assets/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true"><img src="assets/favicon.ico" width="16px" height="16px" /></span>
+    <span class="brand-name">NetSSR</span>
+  </a>
+  <nav class="site-nav" aria-label="Primary">
+    <a href="#object">Object</a>
+    <a href="#activities">Activities</a>
+    <a href="#involved">Get involved</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a class="nav-cta" href="#involved">Work with us →</a>
+</header>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="hero-inner">
+      <pre class="rfc-block" aria-hidden="true">Association name                                          NetSSR
+Association type                     Association loi 1901 (non-profit)
+Activity: Cybersecurity                                Grenoble, France
+                                                            July 2026</pre>
+
+      <h1 class="hero-title">
+        Keeping the Internet
+        <span class="hero-title-accent">Safe and secure.</span>
+      </h1>
+
+      <p class="hero-lede">
+        NetSSR is a non-profit research association contributing, at international
+        scale, to the security, and safety of the Internet
+        and the digital infrastructure it runs on.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#object">Read our object</a>
+        <a class="btn btn-ghost" href="#involved">Get involved</a>
+      </div>
+
+      <div class="hero-status" role="note" aria-label="status line">
+        <span class="dot" aria-hidden="true"></span>
+        <span class="mono">status: active</span>
+        <span class="sep">·</span>
+        <span class="mono">rna: w381031077</span>
+        <span class="sep">·</span>
+        <span class="mono">est. 2026</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= OBJECT / PROTOCOL DIAGRAM ================= -->
+  <section class="object" id="object">
+    <div class="section-head">
+      <p class="eyebrow mono">§1 — Object</p>
+      <h2>Four commitments, one purpose..</h2>
+      <p class="section-intro">
+        Article&nbsp;2 of our statutes defines our purpose along four dimensions.
+      </p>
+    </div>
+
+    <figure class="packet" role="group" aria-label="Mission pillars, shown as a protocol header diagram">
+      <div class="packet-row">
+        <button class="field field-1" data-field="security">
+          <span class="field-label mono">SECURITY</span>
+        </button><button class="field field-2" data-field="safety">
+          <span class="field-label mono">SAFETY</span>
+        </button><button class="field field-3" data-field="research">
+          <span class="field-label mono">RESEARCH</span>
+        </button><button class="field field-4" data-field="openness">
+          <span class="field-label mono">OPEN</span>
+        </button>
+      </div>
+
+      <div class="field-detail" id="field-detail">
+        <p class="field-detail-title mono">// SECURITY</p>
+        <p class="field-detail-text" data-text="security">
+          Detecting and documenting phishing campaigns, malware distribution, 
+          DNS abuse and fraudulent domain infrastructure — and 
+          sharing what we find with the operators who can act on it.
+          <br /><br />
+        <a href="https://urlabuse.com" target="_blank"><b style="color: blue;">URLAbuse</b></a> is an open threat intelligence project we run to expose malicious infrastructure on the
+            Internet — phishing pages, malware distribution URLs, hacked websites, and abusive domains such
+            as fake shops or illegal gambling sites. We collect suspects through honeypots, automated
+            scanners and community submissions, verify each one with concrete evidence (screenshots, IP, ASN,
+            registrar data), and forward confirmed cases to registries, registrars, CERTs and other
+            stakeholders who can act on them. The verified data is published as a free, open blocklist feed
+            — no clutter, no guesswork, just actionable evidence anyone can use to make their own systems safer.
+        </p>
+
+        <p class="field-detail-text" data-text="safety" hidden>
+        Building block lists, indicators of compromise and threat intelligence feeds 
+        that help networks and users avoid malicious domains, phishing sites and malware before harm is done.
+
+        <br /> 
+        <br />
+        Public recursive DNS resolvers (e.g., <a href="https://quad9.net/about/partners/" target="_blank">Quad9</a>) are using our blocklist
+        (<a href="https://dbl.urlabuse.com" target="_blank">URLAbuse DBL</a>),
+        to protect their users from online harm at the DNS resolution level.
+        </p>
+
+        <p class="field-detail-text" data-text="research" hidden>
+        Studying and measuring the DNS, routing and core Internet infrastructure, and building open
+        measurement tools to make that data available to the wider research community.
+
+        <br />
+        We have conducted several research projects to detect malicious infrastructure,
+        in collaboration with law enforcement agencies and major financial institutions,
+        aiming to reduce potential financial damage and victimization.
+
+        </p>
+
+        <p class="field-detail-text" data-text="openness" hidden>
+        Publishing our tools, datasets and research as open source — because the infrastructure
+        that secures the Internet works best when it can be inspected, reused and improved by others.
+        </p>
+      </div>
+    </figure>
+  </section>
+
+  <!-- ================= ACTIVITIES ================= -->
+  <section class="activities" id="activities">
+    <div class="section-head">
+      <p class="eyebrow mono">§2 — Activities</p>
+      <h2>What we actually run.</h2>
+    </div>
+
+    <ul class="route-table" role="list">
+      <li class="route">
+        <span class="route-tag mono">RESEARCH</span>
+        <div class="route-body">
+          <h3>Internet measurement &amp; research</h3>
+          <p>Studying and documenting how the DNS, routing, protocols and
+          critical infrastructure of the Internet function — and publishing
+          what we find.</p>
+        </div>
+      </li>
+      <li class="route">
+        <span class="route-tag mono">THREAT-INTEL</span>
+        <div class="route-body">
+          <h3>Abuse detection &amp; threat intelligence</h3>
+          <p>Detecting and documenting phishing, malware distribution, domain
+          abuse, fraudulent infrastructure and emerging threats to trust
+          online. You can visit <b><a href="https://urlabuse.com" target="_blank">URLAbuse</a></b> project 
+          which launched in 2023 with the mission of collecting and sharing URL intelligence with the Cybersecurity
+          community to make the Internet safer for everyone.
+          </p>
+        </div>
+      </li>
+      <li class="route">
+        <span class="route-tag mono">OPEN-SOURCE</span>
+        <div class="route-body">
+          <h3>Tools, data &amp; infrastructure</h3>
+          <p>Building and maintaining open software, platforms, observatories,
+          block lists and datasets that improve the security and resilience of
+          the Internet ecosystem.</p>
+        </div>
+      </li>
+      <li class="route">
+        <span class="route-tag mono">EDUCATION</span>
+        <div class="route-body">
+          <h3>Publications &amp; training</h3>
+          <p>Conferences, workshops, training sessions and written work aimed
+          at growing public understanding of digital security.</p>
+        </div>
+      </li>
+      <li class="route">
+        <span class="route-tag mono">COOPERATION</span>
+        <div class="route-body">
+          <h3>Cross-sector cooperation</h3>
+          <p>Connecting researchers, engineers, network operators, academia,
+          civil society and industry around a shared, open Internet.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ================= GET INVOLVED ================= -->
+  <section class="involved" id="involved">
+    <div class="section-head section-head-light">
+      <p class="eyebrow mono">§3 — Participate</p>
+      <h2>Three ways in.</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <p class="card-index mono">MEMBER</p>
+        <h3>Join as a member</h3>
+        <p>Individuals and organizations can join NetSSR and take part in
+        shaping its direction at the general assembly.</p>
+        <a class="card-link" href="mailto:contact@netssr.org">Request to join →</a>
+      </article>
+
+      <article class="card">
+        <p class="card-index mono">PARTNER</p>
+        <h3>Partner with us</h3>
+        <p>We collaborate with academic institutions, network operators and
+        civil society organizations on research and shared infrastructure.</p>
+        <a class="card-link" href="mailto:contact@netssr.org">Start a conversation →</a>
+      </article>
+
+      <article class="card">
+        <p class="card-index mono">FUND</p>
+        <h3>Fund the work</h3>
+        <p>As a non-profit, we rely on grants, research funding and
+        mission-aligned sponsorship. Surplus is never distributed — it goes
+        back into the work.</p>
+        <a class="card-link" href="mailto:contact@netssr.org">Discuss funding →</a>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer" id="contact">
+  <div class="footer-grid">
+    <div class="footer-col">
+      <p class="brand-name footer-brand">NetSSR</p>
+      <p class="footer-tagline">Security, safety, research and openness
+      for the Internet.</p>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-heading mono">LEGAL</p>
+      <p class="mono footer-line">Association loi 1901</p>
+      <p class="mono footer-line">RNA: W381031077</p>
+      <p class="mono footer-line">38100 Grenoble, France</p>
+    </div>
+
+    <div class="footer-col">
+      <p class="footer-heading mono">CONTACT</p>
+      <p class="mono footer-line"><a href="mailto:contact@netssr.org">contact@netssr.org</a></p>
+      <p class="mono footer-line"><a href="https://github.com/netssrorg" target="_blank" rel="noopener">github.com/netssrorg</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="mono">© 2026 NetSSR — non-profit, no commercial resale of data.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
